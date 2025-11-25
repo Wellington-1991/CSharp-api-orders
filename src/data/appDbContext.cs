@@ -58,10 +58,16 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<ProductMaterial>(entity =>
         {
             entity.ToTable("ProductMaterial");
+
             entity.HasKey(pm => new { pm.ProductCode, pm.MaterialCode });
 
-            entity.Property(pm => pm.ProductCode).HasColumnName("ProductCode");
-            entity.Property(pm => pm.MaterialCode).HasColumnName("MaterialCode");
+            entity.HasOne(pm => pm.Product)
+                .WithMany(p => p.ProductMaterials) 
+                .HasForeignKey(pm => pm.ProductCode);
+
+            entity.HasOne(pm => pm.Material)
+                .WithMany(m => m.ProductMaterials) 
+                .HasForeignKey(pm => pm.MaterialCode);
         });
 
         modelBuilder.Entity<User>(entity =>
@@ -82,18 +88,18 @@ public class AppDbContext : DbContext
             entity.HasKey(p => p.Id);
             entity.Property(p => p.Id).HasColumnName("ID");
             entity.Property(p => p.Email).HasColumnName("Email");
-            entity.Property(p => p.OrderCodeFK).HasColumnName("Order"); 
+            entity.Property(p => p.OrderCodeFK).HasColumnName("Order");
             entity.Property(p => p.Quantity).HasColumnName("Quantity");
             entity.Property(p => p.MaterialCode).HasColumnName("MaterialCode");
             entity.Property(p => p.CycleTime).HasColumnName("CycleTime");
 
             entity.HasOne(p => p.User)
-                  .WithMany() 
+                  .WithMany()
                   .HasForeignKey(p => p.Email);
 
             entity.HasOne(p => p.Order)
                   .WithMany()
-                  .HasForeignKey(p => p.OrderCodeFK); 
+                  .HasForeignKey(p => p.OrderCodeFK);
         });
 
         base.OnModelCreating(modelBuilder);

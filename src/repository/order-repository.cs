@@ -19,27 +19,25 @@ public class OrderRepository : IOrderRepository
     public OrdersResponseDto GetOrdersList()
     {
         var orders = _context.Orders
-            .Include(o => o.Product)
-                .ThenInclude(p => p.ProductMaterials)
-                    .ThenInclude(pm => pm.Material)
-            .Select(o => new OrderOutputDto
-            {
-                Order = o.OrderCode,
-                Quantity = o.Quantity,
-                ProductCode = o.Product.ProductCode,
-                ProductDescription = o.Product.Description,
-                Image = o.Product.Image,
-                CycleTime = o.Product.CycleTime,
+        .Select(o => new OrderOutputDto
+        {
+            Order = o.OrderCode,
+            Quantity = o.Quantity,
 
-                Materials = o.Product.ProductMaterials
-                    .Select(pm => new MaterialOutputDto
-                    {
-                        MaterialCode = pm.Material.MaterialCode,
-                        MaterialDescription = pm.Material.Description
-                    })
-                    .ToList()
-            })
-            .ToList();
+            ProductCode = o.Product.ProductCode,
+            ProductDescription = o.Product.Description,
+            Image = o.Product.Image,
+            CycleTime = o.Product.CycleTime,
+
+            Materials = o.Product.ProductMaterials
+                .Select(pm => new MaterialOutputDto
+                {
+                    MaterialCode = pm.Material.MaterialCode,
+                    MaterialDescription = pm.Material.Description
+                })
+                .ToList()
+        })
+        .ToList();
 
         return new OrdersResponseDto { Orders = orders };
     }
@@ -50,11 +48,11 @@ public class OrderRepository : IOrderRepository
             .Where(p => p.Email == email)
             .Select(p => new ProductionOutputDto
             {
-                Order = p.OrderCodeFK, // Mapeia a FK para a propriedade 'Order' do DTO
+                Order = p.OrderCodeFK, 
                 Date = p.Date,
-                Quantity = p.Quantity ?? 0, // Usa 0 se a quantidade for nula
+                Quantity = p.Quantity ?? 0, 
                 MaterialCode = p.MaterialCode,
-                CycleTime = p.CycleTime ?? 0 // Usa 0 se o tempo de ciclo for nulo
+                CycleTime = p.CycleTime ?? 0 
             })
             .ToList();
 
