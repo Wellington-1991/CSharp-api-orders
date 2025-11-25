@@ -146,7 +146,8 @@ Lá, você encontrará uma documentação interativa de todos os endpoints, perm
   {
     "email": "teste@sequor.com.br",
     "order": "111",
-    "date": "2024-05-21T10:30:00",
+    "productionDate": "2024-05-21",
+    "productionTime": "10:30:00",
     "quantity": 10.0,
     "materialCode": "ABC-001",
     "cycleTime": 35.0
@@ -168,5 +169,6 @@ Lá, você encontrará uma documentação interativa de todos os endpoints, perm
     "description": "Falha no apontamento - Usuário não cadastrado!"
   }
   ```
+
 
 
