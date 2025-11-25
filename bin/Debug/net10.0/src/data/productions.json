@@ -1,0 +1,32 @@
+{
+	"productions": [
+		{
+			"order": "AAA1",
+			"date": "2/13/2022 10:33:03 AM",
+			"quantity": 1,
+			"materialCode": "A1B",
+			"cycleTime": 30.3
+		},
+		{
+			"order": "AAA1",
+			"date": "1/10/2022 10:30:17 AM",
+			"quantity": 50,
+			"materialCode": "A1B",
+			"cycleTime": 36.3
+		},
+		{
+			"order": "AAA1",
+			"date": "1/10/2022 10:30:19 AM",
+			"quantity": 50,
+			"materialCode": "A1B",
+			"cycleTime": 120
+		},
+		{
+			"order": "AAA1",
+			"date": "1/10/2022 10:30:21 AM",
+			"quantity": 50,
+			"materialCode": "A1B",
+			"cycleTime": 12
+		}
+	]
+}

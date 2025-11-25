@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Wellington\\source\\repos\\Teste-Front-End-Windows-Forms\\api-orders\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20E0CB78-25D8-45B7-A387-F10EA106DC85}|api-orders.csproj|c:\\users\\wellington\\source\\repos\\teste-front-end-windows-forms\\api-orders\\src\\service\\order-service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20E0CB78-25D8-45B7-A387-F10EA106DC85}|api-orders.csproj|solutionrelative:src\\service\\order-service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E0CB78-25D8-45B7-A387-F10EA106DC85}|api-orders.csproj|c:\\users\\wellington\\source\\repos\\teste-front-end-windows-forms\\api-orders\\src\\repository\\order-repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20E0CB78-25D8-45B7-A387-F10EA106DC85}|api-orders.csproj|solutionrelative:src\\repository\\order-repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E0CB78-25D8-45B7-A387-F10EA106DC85}|api-orders.csproj|c:\\users\\wellington\\source\\repos\\teste-front-end-windows-forms\\api-orders\\src\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20E0CB78-25D8-45B7-A387-F10EA106DC85}|api-orders.csproj|solutionrelative:src\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E0CB78-25D8-45B7-A387-F10EA106DC85}|api-orders.csproj|c:\\users\\wellington\\source\\repos\\teste-front-end-windows-forms\\api-orders\\src\\model\\product-material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20E0CB78-25D8-45B7-A387-F10EA106DC85}|api-orders.csproj|solutionrelative:src\\model\\product-material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20E0CB78-25D8-45B7-A387-F10EA106DC85}|api-orders.csproj|c:\\users\\wellington\\source\\repos\\teste-front-end-windows-forms\\api-orders\\src\\repository\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20E0CB78-25D8-45B7-A387-F10EA106DC85}|api-orders.csproj|solutionrelative:src\\repository\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Wellington\\source\\repos\\Teste-Front-End-Windows-Forms\\api-orders\\src\\data\\appDbContext.cs",
+              "RelativeDocumentMoniker": "src\\data\\appDbContext.cs",
+              "ToolTip": "C:\\Users\\Wellington\\source\\repos\\Teste-Front-End-Windows-Forms\\api-orders\\src\\data\\appDbContext.cs",
+              "RelativeToolTip": "src\\data\\appDbContext.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T19:17:54.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Wellington\\source\\repos\\Teste-Front-End-Windows-Forms\\api-orders\\src\\repository\\interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "src\\repository\\interfaces\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\Wellington\\source\\repos\\Teste-Front-End-Windows-Forms\\api-orders\\src\\repository\\interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "src\\repository\\interfaces\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T18:46:42.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "product-material.cs",
+              "DocumentMoniker": "C:\\Users\\Wellington\\source\\repos\\Teste-Front-End-Windows-Forms\\api-orders\\src\\model\\product-material.cs",
+              "RelativeDocumentMoniker": "src\\model\\product-material.cs",
+              "ToolTip": "C:\\Users\\Wellington\\source\\repos\\Teste-Front-End-Windows-Forms\\api-orders\\src\\model\\product-material.cs",
+              "RelativeToolTip": "src\\model\\product-material.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T18:41:12.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "order-repository.cs",
+              "DocumentMoniker": "C:\\Users\\Wellington\\source\\repos\\Teste-Front-End-Windows-Forms\\api-orders\\src\\repository\\order-repository.cs",
+              "RelativeDocumentMoniker": "src\\repository\\order-repository.cs",
+              "ToolTip": "C:\\Users\\Wellington\\source\\repos\\Teste-Front-End-Windows-Forms\\api-orders\\src\\repository\\order-repository.cs",
+              "RelativeToolTip": "src\\repository\\order-repository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T18:34:08.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "order-service.cs",
+              "DocumentMoniker": "C:\\Users\\Wellington\\source\\repos\\Teste-Front-End-Windows-Forms\\api-orders\\src\\service\\order-service.cs",
+              "RelativeDocumentMoniker": "src\\service\\order-service.cs",
+              "ToolTip": "C:\\Users\\Wellington\\source\\repos\\Teste-Front-End-Windows-Forms\\api-orders\\src\\service\\order-service.cs",
+              "RelativeToolTip": "src\\service\\order-service.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADgvxQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T17:49:05.411Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
