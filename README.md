@@ -41,7 +41,7 @@ Siga os passos abaixo para configurar e executar o projeto em seu ambiente de de
 ### 1. Clone o Repositório
 
 ```bash
-git clone <url-do-seu-repositorio>
+git clone <https://github.com/Wellington-1991/CSharp-api-orders.git>
 cd api-orders
 ```
 
@@ -168,4 +168,5 @@ Lá, você encontrará uma documentação interativa de todos os endpoints, perm
     "description": "Falha no apontamento - Usuário não cadastrado!"
   }
   ```
+
 
